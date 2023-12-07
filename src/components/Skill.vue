@@ -17,30 +17,30 @@
 <script>
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
-    name: 'About',
+    name: 'Skill',
     components: {
     },
     data(){
         return{
-            name: 'ABOUT ME',
+            name: 'SKILL',
             discrition: 'Hello, my name is Aom, full name is Mr. Suphanat Wiboonpanich. Now I am a student at Maejo University Chiang Mai Province Studying in the field of Computer Science, 3rd year, being a computer science student, batch 27.'
         }
     }
+
 }
 </script>
 
 <style scoped>
-    .bg-color{
-        background-color: #2c3e50;
-        color: aliceblue;
-    }
-    .padding-text{
-        padding: 50px;
-    }
-    .padding-t{
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
+.padding-text {
+  padding: 50px;
+}
+.padding-t {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.bg-color {
+  background-color: #1d1d1d;
+  color: aliceblue;
+}
 
 </style>
