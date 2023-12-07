@@ -1,0 +1,51 @@
+.m-right {
+    margin-right: 10px;
+}
+
+.m-left {
+    margin-left: 10px;
+}
+
+.m-top {
+    margin-top: 10px;
+}
+
+.m-bottom {
+    margin-bottom: 10px;
+}
+
+.m-all {
+    margin: 10px;
+}
+
+.m-0 {
+    margin: 0px;
+}
+
+.m-top-50 {
+    margin-top: 50px;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.p-right {
+    padding-right: 10px;
+}
+
+.p-left {
+    padding-left: 10px;
+}
+
+.p-top {
+    padding-top: 10px;
+}
+
+.p-bottom {
+    padding-bottom: 10px;
+}
+
+.p-all {
+    padding: 10px;
+}
