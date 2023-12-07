@@ -1,13 +1,13 @@
 <template>
     <ul class="nav nav-underline justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">About ME</a>
+        <li class="nav-item ">
+          <a class="nav-link text-color-w" aria-current="page" href="#scrollspyHeading1">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Certificate</a>
+          <a class="nav-link text-color-w" href="#scrollspyHeading2">Certificate</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contract</a>
+          <a class="nav-link text-color-w" href="#scrollspyHeading3">Contract</a>
         </li>
     </ul>
 </template>
@@ -22,5 +22,7 @@ export default {
 </script>
 
 <style scoped>
-
+    .text-color-w{
+        color: aliceblue;
+    }
 </style>

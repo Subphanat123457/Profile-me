@@ -1,5 +1,5 @@
 <template>
-  <p class="fs-1">About ME</p>
+  <p class="fs-1" style="color: aliceblue;" >Profile Me</p>
 </template>
 
 <script>

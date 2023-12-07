@@ -1,18 +1,9 @@
 <template>
   <div class="container text-center">
-    <div class="row">
-      <div class="col">
-     
-      </div>
-      <div class="col-6">
         <HelloWorld />
         <Navbar class="m-right" />
         <About />
-      </div>
-      <div class="col">
-
-      </div>
-    </div>
+        <Variant /> 
   </div>
   
 </template>
@@ -21,13 +12,15 @@
 import HelloWorld from './components/HelloWorld.vue'
 import Navbar from './components/Navbar.vue'
 import About from './components/About.vue'
+import Variant from './components/Variant.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     Navbar,
-    About
+    About,
+    Variant
   }
 }
 </script>
