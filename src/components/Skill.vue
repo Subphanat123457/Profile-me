@@ -1,26 +1,29 @@
 <template>
     <div class="text-center m-top-50" style="color: aliceblue;">
-        <div class="card bg-color">
+        <div class=" bg-color">
             <div class="card-body  padding-t">
                 <div class="fs-1">
                     {{name}}
+                </div>
+                <div class="fs-5">
+                  My skills that I can do include my mindset.
                 </div>
                 <blockquote class="blockquote mb-0 padding-text">
                   <div class="container">
                     <div class="row">
                       <div class="col">
                         <div class="card color-w">
-                          <div class="card-body size-text padding-t">
+                          <div class="card-body size-text ">
                             <h5 class="card-title" style="text-align: center;">Hard Skills</h5>
                             <div class="code-container">
                               <pre class="code">
                                 <code>
-                                  <p class="card-text keyword text-l">1. Programming Languages:</p> <p class="card-text string">Expertise in multiple programming languages.</p> 
-                                  <p class="card-text " >2. Photo Editing: Experience in editing images.</p>
-                                  <p class="card-text ">3. Video Editing: Experience in editing videos.</p>
-                                  <p class="card-text ">4. Microsoft Office: Experience in using Microsoft Office.</p>
-                                  <p class="card-text ">5. Web Development: Proficient in developing web applications using Vue.js and React.</p>
-                                  <p class="card-text ">6. Project Management: Capable of managing assigned projects effectively.</p>
+                                  <p><span class="card-text keyword text-l">Programming </span><span class="variable"> Languages:Expertise in multiple programming languages.</span></p> 
+                                  <p><span class="card-text keyword text-l" >Photo Editing:</span> <span class="variable">Experience in editing images.</span></p>
+                                  <p><span class="card-text keyword text-l">Video Editing:</span><span class="variable"> Experience in editing videos.</span></p>
+                                  <p><span class="card-text keyword text-l">Microsoft Office:</span><span class="variable"> Experience in using Microsoft Office.</span></p>
+                                  <p><span class="card-text keyword text-l">Web Development:</span><span class="variable"> Proficient in developing web applications using Vue.js and React.</span></p>
+                                  <p><span class="card-text keyword text-l">Project Management:</span><span class="variable"> Capable of managing assigned projects effectively.</span></p>
                                 </code>
                               </pre>
                             </div>
@@ -34,15 +37,12 @@
                             <div class="code-container">
                               <pre class="code">
                                 <code>
-                                  <span class="comment">// Your code goes here</span>
-                                  <span class="keyword">const</span> <span class="variable">message</span> = <span class="string">'Hello, Vue.js!'</span>;
-                          
-                                  <span class="function">function</span> <span class="methodName">greet</span>(<span class="parameter">name</span>) {
-                                    <span class="keyword">return</span> <span class="string">`Greetings, ${name}!`</span>;
-                                  }
-                          
-                                  <span class="comment">// Call the function</span>
-                                  <span class="keyword">console</span>.<span class="function">log</span>(<span class="function">greet</span>(<span class="string">'User'</span>));
+                                  <p><span class="card-text keyword text-l">Soft Skills </span><span class="variable"> Development: Enhancing interpersonal and communication skills.</span></p> 
+                                  <p><span class="card-text keyword text-l" >Adaptability:</span><span class="variable"> Flexibility and adaptability in various situations.</span></p>
+                                  <p><span class="card-text keyword text-l">Collaboration:</span><span class="variable"> Working effectively in a team environment.</span></p>
+                                  <p><span class="card-text keyword text-l">Time Management:</span><span class="variable"> Efficiently managing time and priorities.</span></p>
+                                  <p><span class="card-text keyword text-l">Problem Solving:</span><span class="variable"> Analyzing and solving complex problems.</span></p>
+                                  <p><span class="card-text keyword text-l">Leadership:</span><span class="variable"> Leading and influencing others positively.</span></p>
                                 </code>
                               </pre>
                             </div>
@@ -65,7 +65,7 @@ export default {
     },
     data(){
         return{
-            name: 'SKILL',
+            name: 'SKILLS',
             discrition: 'Hello, my name is Aom, full name is Mr. Suphanat Wiboonpanich. Now I am a student at Maejo University Chiang Mai Province Studying in the field of Computer Science, 3rd year, being a computer science student, batch 27.',
             hardSkill: '',
             softSkill: 'Soft Skills',
@@ -145,5 +145,6 @@ export default {
 .text-l{
   text-align: left;
 }
+
 
 </style>
