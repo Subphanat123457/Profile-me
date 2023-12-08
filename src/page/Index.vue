@@ -5,6 +5,7 @@
             <concept id="#scrollspyHeading2" />
             <Certificate id="#scrollspyHeading3" />
             <Skill id="#scrollspyHeading4" />
+            <Contract id="#scrollspyHeading5" />
     </div>
     
   </template>
@@ -15,6 +16,7 @@
     import Concept from '../components/Concept.vue'
     import Certificate from '../components/Certificate.vue'
     import Skill from '../components/Skill.vue'
+    import Contract from '../components/Contract.vue'
 
   export default {
     name: 'App',
@@ -24,6 +26,7 @@
       Concept,
       Certificate,
       Skill,
+      Contract
     }
   }
   </script>
