@@ -1,5 +1,5 @@
 <template>
-  <div class="bg">
+  <div class="bg fixed-top" id="navbar">
     <div class="row">
       <div class="col-sm-4 padding-l nav-link text-color-w">
         <div class="fs-3">
@@ -15,10 +15,16 @@
             <a class="nav-link text-color-w" aria-current="page" href="#scrollspyHeading1">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-color-w" href="#scrollspyHeading2">Certificate</a>
+            <a class="nav-link text-color-w" aria-current="page" href="#scrollspyHeading2">Concept</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-color-w" href="#scrollspyHeading3">Contract</a>
+            <a class="nav-link text-color-w" href="#scrollspyHeading3">Certificate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-color-w" href="#scrollspyHeading4">Skill</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-color-w" href="#scrollspyHeading5">Contract</a>
           </li>
         </ul>
       </div>
@@ -43,6 +49,10 @@ export default {
     }
     .padding-l{
         padding-left: 0px;
+    }
+    .bg{
+        background-color: #1d1d1d;
+
     }
     
     

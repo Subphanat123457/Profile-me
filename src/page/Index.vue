@@ -1,11 +1,11 @@
 <template>
-    <div class="text-center margin-0">
+    <div class="text-center margin-0 scrollspy-example" data-bs-spy="scroll" data-bs-target="#navbar" tabindex="0" >
             <Navbar class="m-right" />
-            <About id="#scrollspyHeading1" />
-            <concept id="#scrollspyHeading2" />
-            <Certificate id="#scrollspyHeading3" />
-            <Skill id="#scrollspyHeading4" />
-            <Contract id="#scrollspyHeading5" />
+            <About id="scrollspyHeading1" />
+            <concept id="scrollspyHeading2" />
+            <Certificate id="scrollspyHeading3" />
+            <Skill id="scrollspyHeading4" />
+            <Contract id="scrollspyHeading5" />
     </div>
     
   </template>
