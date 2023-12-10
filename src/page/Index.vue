@@ -1,6 +1,6 @@
 <template>
     <div class="text-center margin-0 scrollspy-example" data-bs-spy="scroll" data-bs-target="#navbar" tabindex="0" >
-            <Navbar class="m-right" />
+            <Navbar id="srollspyHeading0" class="m-right" />
             <About id="scrollspyHeading1" />
             <concept id="scrollspyHeading2" />
             <Certificate id="scrollspyHeading3" />
@@ -37,7 +37,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #2c3e50;
+    color: #0080ff;
     margin-top: 60px;
     margin-left: 0px;
     margin-right: 0px;

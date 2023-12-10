@@ -31,7 +31,6 @@
               <div class="col">
                 <blockquote class="blockquote mb-0 padding-text padding-t">
                   <p>{{ discrition }}</p>
-                  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
                 </blockquote>
               </div>
             </div>
