@@ -7,7 +7,7 @@
                 </div>
                 <blockquote class="blockquote mb-0 padding-text">
                 <p>{{discrition}}</p>
-                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                
               </blockquote>
             </div>
           </div>
